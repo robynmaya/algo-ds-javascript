@@ -14,7 +14,7 @@ is sorted in ascending order, we want to increment to reduce the difference betw
 
 */
 
-const smallestDiff(arrayOne, arrayTwo) {
+const smallestDiff = (arrayOne, arrayTwo) => {
     arrayOne.sort((a,b) => a - b);
     arrayTwo.sort((a,b) => a - b);
     let current;
