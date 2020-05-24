@@ -35,4 +35,8 @@ const threeNumSum = (array, targetSum) => {
         }
     }
     return triplets;
+
+    // if the triplets have to be unique, return below:
+    let set = new Set(triplets.map(JSON.stringify));
+    return Array.from(set).map(JSON.parse);
 }
