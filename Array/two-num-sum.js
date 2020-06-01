@@ -1,6 +1,6 @@
 /* 
 Return one pair of integer from the array that sum up to the target number
-Solution 0(n^2) time | O(1) space
+Solution O(nlog(n)) time | O(1) space
 
 Steps:
 Sort the array in ascending order
